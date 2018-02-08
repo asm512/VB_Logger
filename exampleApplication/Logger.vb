@@ -1,7 +1,6 @@
 ﻿Imports System.IO
 
 Public Class Logger
-
     Dim path As String
 
     Function Logger(Optional logfilePath As String = "logFile.log")
@@ -25,8 +24,4 @@ Public Class Logger
         End Select
         File.AppendAllText(path, message + vbCrLf)
     End Function
-
-
-
-
 End Class
