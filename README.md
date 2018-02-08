@@ -1,2 +1,2 @@
 # VB_Logger
-Simple module to add easy logging options in VB
+Simple class to add easy logging options in VB
